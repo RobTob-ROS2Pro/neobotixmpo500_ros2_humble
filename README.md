@@ -1,4 +1,4 @@
-# neobotix_mmo500_ros2
+# neobotixmpo500_ros2_humble
 
 This is a ROS2 humble based package to use the Neobotix MMO500 platform.
 
@@ -6,7 +6,7 @@ This is a ROS2 humble based package to use the Neobotix MMO500 platform.
 
 Build and run the container with
 ```bash
-cd neobotix_mmo500_ros2
+cd neobotixmpo500_ros2_humble
 source start_docker.sh
 ```
 
