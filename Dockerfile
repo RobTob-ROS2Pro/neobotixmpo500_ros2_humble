@@ -50,7 +50,7 @@ RUN mkdir -p /home/$USER/ros2_ws/src
 ##                                 User Dependecies                         ##
 ##############################################################################
 WORKDIR /home/$USER/ros2_ws/src
-RUN git clone --branch $ROS_DISTRO     https://github.com/neobotix/neo_mpo_500-2.git
+RUN git clone --branch $ROS_DISTRO     https://github.com/frederikplahl/neo_mpo_500-2.git
 RUN git clone --branch $ROS_DISTRO     https://github.com/neobotix/neo_nav2_bringup.git
 RUN git clone --branch $ROS_DISTRO     https://github.com/neobotix/neo_local_planner2.git
 RUN git clone --branch $ROS_DISTRO     https://github.com/neobotix/neo_localization2.git
