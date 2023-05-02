@@ -17,6 +17,8 @@ RUN apt-get update && apt-get install --no-install-recommends -y \
     ros-$ROS_DISTRO-teleop-twist-keyboard \
     ros-$ROS_DISTRO-rviz2 \
     ros-$ROS_DISTRO-topic-tools \
+    ros-$ROS_DISTRO-rqt* \
+    ros-$ROS_DISTRO-cartographer \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
