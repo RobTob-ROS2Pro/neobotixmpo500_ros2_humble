@@ -19,6 +19,7 @@ RUN apt-get update && apt-get install --no-install-recommends -y \
     ros-$ROS_DISTRO-topic-tools \
     ros-$ROS_DISTRO-rqt* \
     ros-$ROS_DISTRO-cartographer \
+    ros-$ROS_DISTRO-cartographer-ros\
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
