@@ -4,6 +4,8 @@ This is a ROS2 humble based package to use the Neobotix MMO500 platform.
 
 ## How to use?
 
+remote the neobotix via SSH
+
 Build and run the container with
 ```bash
 cd neobotixmpo500_ros2_humble
