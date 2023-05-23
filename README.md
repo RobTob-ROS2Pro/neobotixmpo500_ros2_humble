@@ -44,11 +44,16 @@ You should see the robot and the map loaded in. Now give a pose estimation on wh
 Run the normal bringup and also run:
 
 ```bash
-ros2 run cartographer_ros occupancy_grid_node -resolution 0.05 -publish_period_sec 1.0
+# ros2 run cartographer_ros occupancy_grid_node -resolution 0.05 -publish_period_sec 1.0
+
+ros2 run cartographer_ros cartographer_occupancy_grid_node
+
 ```
 and
 ```bash
-ros2 run cartographer_ros cartographer_node -configuration_directory src/neo_mpo_500-2/configs/navigation/mapping -configuration_basename revo_lds1.lua
+# ros2 run cartographer_ros cartographer_node -configuration_directory src/neo_mpo_500-2/configs/navigation/mapping -configuration_basename revo_lds1.lua
+
+ros2 run cartographer_ros cartographer_node -configuration_directory install/neo_mpo_500-2/share/neo_mpo_500-2/configs/ -configuration_basename test.lua
 ```
 To see your mapping progress run
 ```bash
